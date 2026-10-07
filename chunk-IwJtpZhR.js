@@ -1,0 +1,1 @@
+var x=r=>Math.round(r*10)/10;function d(r,e,t,u,n){let o=1-n,c=o*o*o,s=3*o*o*n,b=3*o*n*n,i=n*n*n;return[c*r[0]+s*e[0]+b*t[0]+i*u[0],c*r[1]+s*e[1]+b*t[1]+i*u[1]]}function P(r){let e=r>>>0;return()=>{e=e+1831565813|0;let t=Math.imul(e^e>>>15,1|e);return t=t+Math.imul(t^t>>>7,61|t)^t,((t^t>>>14)>>>0)/4294967296}}var m=0;var a=()=>`i${++m}`;export{x as i,a as n,d as r,P as t};
